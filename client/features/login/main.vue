@@ -9,7 +9,7 @@
       dense
     )
       v-btn(icon)
-        img.my-login__logo(src='~/@/assets/images/logo.svg' alt='VuePizza Logo')
+        img.my-login__logo(src='~/@/assets/images/logo.png' alt='VuePizza Logo')
     v-layout(justify-center align-center)
       v-flex.text-xs-center(xs12 lg6)
         v-layout(row wrap)
@@ -23,7 +23,7 @@
             v-card.my-login__card
               v-card-title.my-login__card-title(primary-title)
                 v-avatar(:size="100")
-                  img(src='~/@/assets/images/profile.jpg' alt='Avatar')
+                  img(src='~/@/assets/images/profile.png' alt='Avatar')
 
               v-card-text
                 v-form
